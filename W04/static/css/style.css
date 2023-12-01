@@ -1,0 +1,55 @@
+.first {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 10px;
+}
+
+a {
+  color: blue;
+}
+
+#a-default {
+  text-decoration: underline;
+  color: blue;
+}
+
+#a-hover {
+  text-decoration: underline;
+  color: coral;
+}
+
+#a-hover:hover {
+  color: blueviolet;
+}
+
+#a-background:hover {
+  background-color: aquamarine;
+  width: 200px;
+}
+
+#a-border:hover {
+  border: 1px solid black;
+  width: 200px;
+}
+
+.a-third {
+  color: darkseagreen;
+  margin-top: 5px;
+}
+
+.a-third:hover {
+  text-decoration: underline;
+  margin-top: 0px;
+}
+
+.a-four {
+  font-weight: bold;
+  border: 1px solid black;
+  background-image: linear-gradient(to bottom right, grey, lightgrey);
+  flex: none;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Basic</title>
+  <style>
+    .blue {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Javascript</h1>
+  <h4 id="content"></h4>
+  <script>
+    document.write('Hello Javascript.');
+
+    const html = '<b>Content goes here.</b>';
+    document.write(html);
+
+    document.getElementById('content').innerHTML = html;
+
+    const student = {
+      name: 'Ken',
+      age: 20
+    }
+    document.write(student.name);
+    document.write(student.age);
+
+    const array = [1, 2, 3, 4, 5];
+    for (let i = 0; i < array.length; i++) {
+      document.write(`${array[i]}, `);
+    }
+  </script>
+  <form action="">
+    <select name="" id="">
+      <script>
+        for (let i = 1980; i <= 2023; i++) {
+          document.writeln(`<option value="${i}">${i}</option>`);
+        }
+      </script>
+    </select>
+    <div>
+      <button type="button" onclick="showBCC()">Hiển thị bảng cửu chương</button>
+      <button type="button" onclick="applyBlue()">BLUE</button>
+    </div>
+    <div id="bcc"></div>
+  </form>
+
+  <script>
+    function showBCC() {
+      // alert('Show BCC');
+      let html = '<table border="1">';
+      for (let i = 1; i <= 10; i++) {
+        html += '<tr>';
+        for (let j = 2; j <= 9; j++) {
+          html += `<td>${j} * ${i} = ${j * i}</td>`;
+        }
+        html += '</tr>';
+      }
+      html += '</table>';
+
+      // document.getElementById('bcc').innerHTML = html;
+      document.querySelector('#bcc').innerHTML = html;
+    }
+
+    function applyBlue() {
+      document.querySelector('h1').classList.add('blue');
+      document.querySelector('h1').style.border = '2px solid red';
+    }
+  </script>
+
+</body>
+
+</html>

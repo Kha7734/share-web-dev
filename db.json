@@ -1,0 +1,6 @@
+[
+  { "CatID": 1, "CatName": "Laptop" },
+  { "CatID": 2, "CatName": "Phone" },
+  { "CatID": 3, "CatName": "Clothes" },
+  { "CatID": 4, "CatName": "Jewery" }
+]

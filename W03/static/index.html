@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      label {
+        display: inline-block;
+        width: 100px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="name" />
+      <br />
+      <label for="pw">Password</label>
+      <input type="password" id="pw" name="password" placeholder="password" />
+      <br />
+      <label for="checkbox">Favorite Colors</label>
+      <br />
+      <input type="checkbox" id="red" name="red" value="Red" />
+      <label for="red">Red</label>
+      <br />
+      <input type="checkbox" id="green" name="green" value="Green" />
+      <label for="green">Green</label>
+      <br />
+      <input type="checkbox" id="blue" name="blue" value="Blue" />
+      <label for="blue">Blue</label>
+      <br />
+      <label for="gender">Gender</label>
+      <br />
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label>
+      <br />
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label>
+      <br />
+      <label for="city">City</label>
+      <select id="city" name="city" size="1">
+        <option value="hcm">Hồ Chí Minh</option>
+        <option value="tg">Tiền Giang</option>
+      </select>
+      <br />
+      <label for="address">Address</label>
+      <textarea id="address" name="address" cols="20" rows="5"></textarea>
+      <br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>

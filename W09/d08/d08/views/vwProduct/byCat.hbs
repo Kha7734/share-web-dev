@@ -1,0 +1,52 @@
+<div class='card'>
+  <h5 class='card-header'>
+    Products
+  </h5>
+  {{#if this.empty}}
+    <div class='card-body'>
+      Không có dữ liệu
+    </div>
+  {{else}}
+    <div class='card-body'>
+      <div class='row'>
+        {{#each this.products}}
+          <div class='col-sm-6 mb-3'>
+            <div class='card h-100'>
+              <img
+                class='card-img-top'
+                src='/static/imgs/sp/{{ProdID}}/main_thumbs.jpg'
+                alt='Card image cap'
+              />
+              <div class='card-body'>
+                <h5 class='card-title'>
+                  {{ProdName}}
+                </h5>
+                <h5 class='card-title'>
+                  {{format_number Price}}
+                </h5>
+                <p class='card-text'>
+                  {{TinyDes}}
+                </p>
+              </div>
+              <div class='card-footer'>
+                <a class='btn btn-outline-success' href='#' role='button'>
+                  <i class='bi bi-plus-fill'>
+                    Add to card
+                  </i>
+                </a>
+                <a class='btn btn-outline-success' href='#' role='button'>
+                  <i class='bi bi-eye-fill'>
+                    Details
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  {{/if}}
+  <div class='card-footer text-muted'>
+    2 days ago
+  </div>
+</div>

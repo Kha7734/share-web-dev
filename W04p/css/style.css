@@ -1,0 +1,53 @@
+#header, #footer{
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+
+#main{
+  /* display: flex; */
+  margin: 5px;
+}
+
+#content{
+  /* width: 70%; */
+  text-align: justify;
+}
+
+#sidebar{
+  /* width: 30%; */
+  margin-left: 5px;
+}
+
+.block{
+  height: 100px;
+  border: 2px solid red;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+  
+#main{
+  display: flex;
+  margin: 5px;
+}
+
+#content{
+  width: 70%;
+  text-align: justify;
+}
+
+#sidebar{
+  width: 30%;
+  margin-left: 5px;
+}
+
+.block{
+  height: 100px;
+  border: 2px solid red;
+  margin-bottom: 5px;
+  background-color: antiquewhite;
+}
+}

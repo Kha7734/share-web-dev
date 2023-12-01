@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "d08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "knex": "^3.0.1",
+    "mysql2": "^3.6.5",
+    "nodemon": "^3.0.1",
+    "numeral": "^2.0.6"
+  }
+}

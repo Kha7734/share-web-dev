@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS</title>
+  <style>
+    #div1 {
+      color: dodgerblue;
+      font-family: 'Baloo 2';
+      font-style: italic;
+      background-color: lightcyan;
+      border-left: 5px solid blue;
+      border-radius: 15px;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+
+    div {
+      font-size: 14pt;
+    }
+
+    .bdr-green {
+      border-right: 5px solid green;
+      border-radius: 20px !important;
+    }
+
+    div.important {
+      color: blue;
+    }
+
+    div .important {
+      color: purple;
+    }
+
+    #spnButton {
+      border: 1px solid black;
+      padding: 10px;
+      margin-left: 100px;
+      border-radius: 10px;
+      font-size: 18pt;
+      background-color: beige;
+      cursor: pointer;
+    }
+
+    #spnButton:hover {
+      background-color: aquamarine;
+    }
+
+    #block,
+    .inline {
+      border: 1px solid blue;
+      width: 200px;
+      height: 50px;
+    }
+
+    .inline {
+      display: block;
+    }
+
+    .d-flex { 
+      display: flex;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="d-flex">
+    <div id="block">Div content</div>
+    <span class="inline">Span content</span>
+    <span class="inline">Span long content</span>
+  </div>
+
+  <div class="important">DIV</div>
+  <div>
+    <p class="important">P</p>
+  </div>
+  <span id="spnButton">
+    Click Me
+  </span>
+  <br><br><br>
+  <div id="div1" class="bdr-green">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga officiis, unde totam nam accusamus perferendis
+    possimus, nostrum deleniti suscipit blanditiis perspiciatis fugit illo expedita tempora doloremque laudantium saepe
+    beatae natus!
+  </div>
+  <div class="bdr-green">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora harum reiciendis at laborum. Perferendis optio
+    cupiditate, maiores eum fugit voluptates quia voluptatem quae necessitatibus aliquid rerum eos, iusto ullam
+    incidunt?
+  </div>
+  <div
+    style="color: crimson; font-family: 'Baloo 2'; font-style: italic; background-color: aquamarine; border-left: 5px solid red; border-radius: 15px; padding: 10px;">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem adipisci officia suscipit necessitatibus
+    illo quae soluta voluptate corporis aut. Ab cum voluptatem eos maxime quod minima expedita? Quibusdam,
+    necessitatibus?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem adipisci officia suscipit necessitatibus
+    illo quae soluta voluptate corporis aut. Ab cum voluptatem eos maxime quod minima expedita? Quibusdam,
+    necessitatibus?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem adipisci officia suscipit necessitatibus
+    illo quae soluta voluptate corporis aut. Ab cum voluptatem eos maxime quod minima expedita? Quibusdam,
+    necessitatibus?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem adipisci officia suscipit necessitatibus
+    illo quae soluta voluptate corporis aut. Ab cum voluptatem eos maxime quod minima expedita? Quibusdam,
+    necessitatibus?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem adipisci officia suscipit necessitatibus
+    illo quae soluta voluptate corporis aut. Ab cum voluptatem eos maxime quod minima expedita? Quibusdam,
+    necessitatibus?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem adipisci officia suscipit necessitatibus
+    illo quae soluta voluptate corporis aut. Ab cum voluptatem eos maxime quod minima expedita? Quibusdam,
+    necessitatibus?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem adipisci officia suscipit necessitatibus
+    illo quae soluta voluptate corporis aut. Ab cum voluptatem eos maxime quod minima expedita? Quibusdam,
+    necessitatibus?
+  </div>
+</body>
+
+</html>

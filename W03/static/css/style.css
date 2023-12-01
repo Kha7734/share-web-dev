@@ -1,0 +1,17 @@
+#spnButton{
+  border: 1px solid black;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+
+#spnButton:hover{
+  color: blue;  
+}
+
+#block, #inline{
+  border: 1px solid blue;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style3.css" rel="stylesheet" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="avatar">
+        <img src="img/dog.jpg" alt="Avatar" />
+      </div>
+      <div id="nav">
+        <ul>
+          <li class="menu"><a href="#">Home</a></li>
+          <li class="menu"><a href="#">Jobs</a></li>
+          <li class="menu"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="main">
+      <form action="#">
+        <div id="title">
+          <p>General Inquiries</p>
+        </div>
+
+        <div id="form">
+          <div class="labelText">
+            <label for="name">Name</label>
+            <p id="txtName">required</p>
+          </div>
+          <input type="text" id="name" name="name" required />
+
+          <div class="labelText">
+            <label for="email">Email</label>
+            <p id="txtEmail">required</p>
+          </div>
+          <input type="text" id="email" name="email" required />
+
+          <div class="labelText">
+            <label for="enquiry">Nature of enquiry</label>
+            <p>required</p>
+          </div>
+          <select name="enquiry" id="enquiry" required>
+            <option value="general">General</option>
+            <option value="specify">Specify</option>
+          </select>
+
+          <div class="inputMess">
+            <label for="mess">Message</label>
+            <br />
+            <textarea id="mess" name="mess"></textarea>
+          </div>
+
+          <div class="labelText">
+            <label for="calc" id="txtMath">3 + 4 = ?</label>
+            <p id="txtCalc">required</p>
+          </div>
+          <input type="number" id="calc" name="calc" required />
+
+          <div class="submit">
+            <button type="submit" id="btnSubmit">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div id="footer">
+      <p>200 Online Users - 24 Visited Users</p>
+    </div>
+
+    <script src="js/ex6Form.js"></script>
+  </body>
+</html>
